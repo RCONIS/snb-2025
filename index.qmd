@@ -1,13 +1,14 @@
 ---
 title: "Why We Need to Improve Software Engineering in Biostatistics"
 subtitle: "A Call to Action"
-author: "Daniel Sabanés Bové (Roche)"
-institute: "Keynote at R/Pharma 2023"
-date: "2023-10-26"
+author: "Daniel Sabanés Bové (RCONIS)"
+institute: "Keynote at SnB 2025"
+date: "2025-10-09"
 date-format: long
 license: 'CC BY-SA'
 format: 
   revealjs:
+    logo: RCONIS_logo.png
     fontsize: 2rem
     slide-number: c/t
     toc: true
@@ -15,23 +16,17 @@ format:
     footer: 'Why We Need to Improve Software Engineering in Biostatistics | [License](http://creativecommons.org/licenses/by-sa/4.0/ "License: CC BY-SA 4.0")'
 preload-iframes: true
 title-slide-attributes: 
-  data-background-image: research-progress.png
-  data-background-size: 30%
+  data-background-image: "RCONIS_logo.png"
+  data-background-size: 20%
   data-background-opacity: "1"
   data-background-position: 95% 85%
 ---
 
 # Preamble {background-iframe="https://cicdguy.github.io/colored-particles/"}
 
-## Disclaimer
-
-</br></br></br>
-
-*Any opinions expressed in this presentation are solely my own and not necessarily those of my employer (Hoffmann-La Roche Ltd).*
-
 ## Acknowledgements
 
-Partly based on the manuscript "Improving Software Engineering in Biostatistics: Challenges and Opportunities" ([arXiv](https://arxiv.org/abs/2301.11791)) which is joint work with:
+Partly based on the manuscript "The Statistical Software Revolution in Pharmaceutical Development: Challenges and Opportunities in Open Source" ([arXiv](https://arxiv.org/abs/2301.11791)) which is joint work with:
 
 ::: columns
 ::: {.column width="50%"}
@@ -54,7 +49,7 @@ Partly based on the manuscript "Improving Software Engineering in Biostatistics:
 :::
 :::
 
-Its content started from a panel discussion on "Research Software Engineering for Clinical Biostatistics" which took place at the 43rd Annual Conference of the International Society for Clinical Biostatistics (ISCB) in Newcastle in August 2022.
+It started from a panel discussion on "Research Software Engineering for Clinical Biostatistics" at ISCB 43 in Newcastle in August 2022.
 
 ## Objective of this keynote
 
@@ -62,7 +57,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 - I would like to kick off a good discussion (hopefully also beyond this talk) so that we can learn from each other
 - I would like you to reflect on how biostatistics is being carried out on a daily basis in your organizations
-  - Why biostatistics? Because we are at R/Pharma, and also that is what I know about most about
+  - Why biostatistics? Because we are at the Statistics \& Biopharmacy conference, and also that is what I know about most about
 - I would like you to strive to get yourself savvy in good software engineering practices and apply them in your daily job
 - I would like you to influence your biostatistics colleagues and departments in our organizations
 
@@ -146,12 +141,10 @@ Its content started from a panel discussion on "Research Software Engineering fo
 - I really liked that I did a lot of programming in a structured way in Google
 - But I missed the scientific aspects from Pharma ...   
   ... where we deal not just with numbers, but also biology, medicine, patients, medical doctors, etc.
-- And Roche just started venturing more into R territory  
-  (keyword: NEST project)
-- So I switched back to Roche, because it is a great place to work
-- And I see lots of potential to apply Tech skills in Pharma!   
-  ⇨ This is the topic this presentation  
-  ⇨ How can we improve the way we work with code in Pharma?
+- And Roche just started venturing more into R territory, so I built up the Statistical Engineering team there
+- And then last year I co-founded RCONIS to  
+  1. help Pharma companies to use new statistical methodology in R et al. reliably
+  2. be able to work remotely from Taiwan
   
 :::
 
@@ -372,6 +365,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
 - Published on CRAN in 2015
 - Described in a paper in 2019, and other companies started to use it
 - Joined forces about end of 2021 to develop the package further together
+- Started crowd-funding the development via RPACT in 2025
 
 :::
 
@@ -380,13 +374,11 @@ Its content started from a panel discussion on "Research Software Engineering fo
 ::: {.incremental}
 
 - Has been founded in August 2022 as working group in the ASA Biopharmaceutical Section
-- ~40 members from over 25 pharma companies, CRO, etc.
+- More than 60 members from over 30 pharma companies, CRO, etc.
   - open for new members
 - Focuses on 
-  1. building packages together (already on CRAN are `mmrm` and `brms.mmrm`)
-  2. disseminating good software engineering (SWE) practices (workshops, videos)
-- More details were in the talk by Ya Wang from Tuesday
-
+  1. building packages together (already on CRAN are `mmrm`, `brms.mmrm`, `maicplus`)
+  2. disseminating good software engineering (SWE) practices (workshops, videos)     
 :::
 
 ## Tools for reproducible research
@@ -448,6 +440,8 @@ Templates can be a great start to centralize code for reoccurring use cases, e.g
 - [The Turing Way](https://the-turing-way.netlify.app/)
   - Started in 2019 as a guide for reproducibility (covering Version Control, Code Testing, and Continuous integration)
   - Now encompasses guides for Reproducible Research, Project Design, Communication, Collaboration, Ethical Research
+- [`openstatsguide`](https://www.openstatsware.org/guide.html) with "Minimum Viable Good Practices for High Quality Statistical Software Packages"
+  - Concise check list for building R, Python, Julia packages
   
 :::
 
@@ -470,7 +464,8 @@ Templates can be a great start to centralize code for reoccurring use cases, e.g
 ::: {.incremental}
 
 - ["Good Software Engineering Practices for R Packages"](https://rconsortium.github.io/asa-biop-swe-wg/blog/2023-gswe4rp-workshops-wrapup/)
-  - `openstatsware` have run five workshops in 2023 
+  - `openstatsware` have run 12 workshops across the globe since 2023!
+  - Including the short course here tomorrow afternoon
 - ["The Carpentries"](https://carpentries.org/)
   - Teaches foundational coding and data science skills to researchers worldwide
   - Teaching material on software, data, and library is available
@@ -495,8 +490,9 @@ Templates can be a great start to centralize code for reoccurring use cases, e.g
 
 ## Thank you!
 
-These slides are at  
-[danielinteractive.github.io/rpharma-2023-keynote](https://danielinteractive.github.io/rpharma-2023-keynote/)
+These slides are at [RCONIS.github.io/snb-2025](https://RCONIS.github.io/snb-2025)
 
-Feel free to connect at  
+Looking forward to connecting with you:
 [linkedin.com/in/danielsabanesbove](https://www.linkedin.com/in/danielsabanesbove/)
+
+![](research-progress.png)
