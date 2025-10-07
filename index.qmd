@@ -108,11 +108,11 @@ It started from a panel discussion on "Research Software Engineering for Clinica
 
 ::: {.incremental}
 
-- I did not store my programs in version control systems
-- I did not worry too much about making my code readable by others
-- I did not try to make calculations reproducible
-- I did not get any code review of my study design simulations 
-- I did not write any unit tests for my packages
+- I did *not* store my programs in version control systems
+- I did *not* worry too much about making my code readable by others
+- I did *not* try to make calculations reproducible
+- I did *not* get any code review of my study design simulations 
+- I did *not* write any unit tests for my packages
 
 :::
 
@@ -142,8 +142,8 @@ It started from a panel discussion on "Research Software Engineering for Clinica
 - But I missed the scientific aspects from Pharma ...   
   ... where we deal not just with numbers, but also biology, medicine, patients, medical doctors, etc.
 - And Roche just started venturing more into R territory, so I built up the Statistical Engineering team there
-- And then last year I co-founded RCONIS to  
-  1. help Pharma companies to use new statistical methodology in R et al. reliably
+- And then last year I co-founded [RCONIS](https://rconis.com) to  
+  1. help Pharma companies to use (new) statistical methodology in R reliably
   2. be able to work remotely from Taiwan
   
 :::
@@ -281,7 +281,7 @@ It started from a panel discussion on "Research Software Engineering for Clinica
 - We know what we should do, let's just take the time and energy to do it
 - We can learn a lot from the statistical programmers:
   - organize ourselves with standards (starts with naming conventions for files and folders)
-  - automate repetitive tasks
+  - automate repetitive tasks (LLMs can help us to write tools for this)
   - consider double programming of key results
 - Processes should consider code in the same priority as documents (statistical analysis plans etc.)
   - that implies code review, good and consistent code style, business continuity, ...
@@ -305,6 +305,7 @@ It started from a panel discussion on "Research Software Engineering for Clinica
   - good software engineering practices warrant dedicated courses
 - Continues with post-graduate education during the work life:   
   online courses, software engineering workshops, conference sessions, etc.
+- Do *not* think that programming is superfluous because of LLMs! You *still* need to be able to do it yourself to use LLMs efficiently and reliably!
 
 :::
 
@@ -365,11 +366,11 @@ It started from a panel discussion on "Research Software Engineering for Clinica
 - Published on CRAN in 2015
 - Described in a paper in 2019, and other companies started to use it
 - Joined forces about end of 2021 to develop the package further together
-- Started crowd-funding the development via RPACT in 2025
+- Started crowd-funding the development via [RPACT](https://rpact.com) in 2025
 
 :::
 
-## Working group [`openstatsware`](https://rconsortium.github.io/asa-biop-swe-wg/)
+## Working group [`openstatsware`](https://openstatsware.org)
 
 ::: {.incremental}
 
@@ -377,7 +378,7 @@ It started from a panel discussion on "Research Software Engineering for Clinica
 - More than 60 members from over 30 pharma companies, CRO, etc.
   - open for new members
 - Focuses on 
-  1. building packages together (already on CRAN are `mmrm`, `brms.mmrm`, `maicplus`)
+  1. building packages together (already on CRAN are [`mmrm`](https://cran.r-project.org/package=mmrm), [`brms.mmrm`](https://cran.r-project.org/package=brms.mmrm), [`maicplus`](https://cran.r-project.org/package=maicplus))
   2. disseminating good software engineering (SWE) practices (workshops, videos)     
 :::
 
@@ -465,7 +466,7 @@ Templates can be a great start to centralize code for reoccurring use cases, e.g
 
 - ["Good Software Engineering Practices for R Packages"](https://rconsortium.github.io/asa-biop-swe-wg/blog/2023-gswe4rp-workshops-wrapup/)
   - `openstatsware` have run 12 workshops across the globe since 2023!
-  - Including the short course here tomorrow afternoon
+  - Including the short course here tomorrow afternoon - see you there!
 - ["The Carpentries"](https://carpentries.org/)
   - Teaches foundational coding and data science skills to researchers worldwide
   - Teaching material on software, data, and library is available
