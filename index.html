@@ -6,12 +6,12 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.24">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
   <meta name="author" content="Daniel Sabanés Bové (RCONIS)">
   <meta name="dcterms.date" content="2025-10-09">
-  <title>Slides for R/Pharma 2023 Keynote – Why We Need to Improve Software Engineering in Biostatistics</title>
+  <title>Slides for SnB 2025 Keynote – Why We Need to Improve Software Engineering in Biostatistics</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -240,11 +240,11 @@ Daniel Sabanés Bové (RCONIS)
 <section id="what-i-did-not-do-during-those-first-years" class="slide level2">
 <h2>What I did <em>not</em> do during those first years</h2>
 <ul>
-<li class="fragment">I did not store my programs in version control systems</li>
-<li class="fragment">I did not worry too much about making my code readable by others</li>
-<li class="fragment">I did not try to make calculations reproducible</li>
-<li class="fragment">I did not get any code review of my study design simulations</li>
-<li class="fragment">I did not write any unit tests for my packages</li>
+<li class="fragment">I did <em>not</em> store my programs in version control systems</li>
+<li class="fragment">I did <em>not</em> worry too much about making my code readable by others</li>
+<li class="fragment">I did <em>not</em> try to make calculations reproducible</li>
+<li class="fragment">I did <em>not</em> get any code review of my study design simulations</li>
+<li class="fragment">I did <em>not</em> write any unit tests for my packages</li>
 </ul>
 </section>
 <section id="some-tricks-i-learned-in-tech" class="slide level2">
@@ -275,9 +275,9 @@ Daniel Sabanés Bové (RCONIS)
 <li class="fragment">But I missed the scientific aspects from Pharma …<br>
 … where we deal not just with numbers, but also biology, medicine, patients, medical doctors, etc.</li>
 <li class="fragment">And Roche just started venturing more into R territory, so I built up the Statistical Engineering team there</li>
-<li class="fragment">And then last year I co-founded RCONIS to
+<li class="fragment">And then last year I co-founded <a href="https://rconis.com">RCONIS</a> to
 <ol type="1">
-<li class="fragment">help Pharma companies to use new statistical methodology in R et al.&nbsp;reliably</li>
+<li class="fragment">help Pharma companies to use (new) statistical methodology in R reliably</li>
 <li class="fragment">be able to work remotely from Taiwan</li>
 </ol></li>
 </ul>
@@ -424,7 +424,7 @@ we are not building airplanes that could fall from the sky …<br>
 <li class="fragment">We can learn a lot from the statistical programmers:
 <ul>
 <li class="fragment">organize ourselves with standards (starts with naming conventions for files and folders)</li>
-<li class="fragment">automate repetitive tasks</li>
+<li class="fragment">automate repetitive tasks (LLMs can help us to write tools for this)</li>
 <li class="fragment">consider double programming of key results</li>
 </ul></li>
 <li class="fragment">Processes should consider code in the same priority as documents (statistical analysis plans etc.)
@@ -453,6 +453,7 @@ we are not building airplanes that could fall from the sky …<br>
 </ul></li>
 <li class="fragment">Continues with post-graduate education during the work life:<br>
 online courses, software engineering workshops, conference sessions, etc.</li>
+<li class="fragment">Do <em>not</em> think that programming is superfluous because of LLMs! You <em>still</em> need to be able to do it yourself to use LLMs efficiently and reliably!</li>
 </ul>
 </section>
 <section id="establish-dedicated-teams" class="slide level2">
@@ -514,11 +515,11 @@ rather than receiving different solutions from each company</li>
 <li class="fragment">Published on CRAN in 2015</li>
 <li class="fragment">Described in a paper in 2019, and other companies started to use it</li>
 <li class="fragment">Joined forces about end of 2021 to develop the package further together</li>
-<li class="fragment">Started crowd-funding the development via RPACT in 2025</li>
+<li class="fragment">Started crowd-funding the development via <a href="https://rpact.com">RPACT</a> in 2025</li>
 </ul>
 </section>
 <section id="working-group-openstatsware" class="slide level2">
-<h2>Working group <a href="https://rconsortium.github.io/asa-biop-swe-wg/"><code>openstatsware</code></a></h2>
+<h2>Working group <a href="https://openstatsware.org"><code>openstatsware</code></a></h2>
 <ul>
 <li class="fragment">Has been founded in August 2022 as working group in the ASA Biopharmaceutical Section</li>
 <li class="fragment">More than 60 members from over 30 pharma companies, CRO, etc.
@@ -527,7 +528,7 @@ rather than receiving different solutions from each company</li>
 </ul></li>
 <li class="fragment">Focuses on
 <ol type="1">
-<li class="fragment">building packages together (already on CRAN are <code>mmrm</code>, <code>brms.mmrm</code>, <code>maicplus</code>)</li>
+<li class="fragment">building packages together (already on CRAN are <a href="https://cran.r-project.org/package=mmrm"><code>mmrm</code></a>, <a href="https://cran.r-project.org/package=brms.mmrm"><code>brms.mmrm</code></a>, <a href="https://cran.r-project.org/package=maicplus"><code>maicplus</code></a>)</li>
 <li class="fragment">disseminating good software engineering (SWE) practices (workshops, videos)<br>
 </li>
 </ol></li>
@@ -613,7 +614,7 @@ rather than receiving different solutions from each company</li>
 <li class="fragment"><a href="https://rconsortium.github.io/asa-biop-swe-wg/blog/2023-gswe4rp-workshops-wrapup/">“Good Software Engineering Practices for R Packages”</a>
 <ul>
 <li class="fragment"><code>openstatsware</code> have run 12 workshops across the globe since 2023!</li>
-<li class="fragment">Including the short course here tomorrow afternoon</li>
+<li class="fragment">Including the short course here tomorrow afternoon - see you there!</li>
 </ul></li>
 <li class="fragment"><a href="https://carpentries.org/">“The Carpentries”</a>
 <ul>

@@ -74,7 +74,7 @@
     "href": "index.html#but-pharma-is-more-fun-for-me",
     "title": "Why We Need to Improve Software Engineering in Biostatistics",
     "section": "But Pharma is more fun for me",
-    "text": "But Pharma is more fun for me\n\nI really liked that I did a lot of programming in a structured way in Google\nBut I missed the scientific aspects from Pharma …\n… where we deal not just with numbers, but also biology, medicine, patients, medical doctors, etc.\nAnd Roche just started venturing more into R territory, so I built up the Statistical Engineering team there\nAnd then last year I co-founded RCONIS to\n\nhelp Pharma companies to use new statistical methodology in R et al. reliably\nbe able to work remotely from Taiwan"
+    "text": "But Pharma is more fun for me\n\nI really liked that I did a lot of programming in a structured way in Google\nBut I missed the scientific aspects from Pharma …\n… where we deal not just with numbers, but also biology, medicine, patients, medical doctors, etc.\nAnd Roche just started venturing more into R territory, so I built up the Statistical Engineering team there\nAnd then last year I co-founded RCONIS to\n\nhelp Pharma companies to use (new) statistical methodology in R reliably\nbe able to work remotely from Taiwan"
   },
   {
     "objectID": "index.html#note",
@@ -151,7 +151,7 @@
     "href": "index.html#take-software-engineering-seriously",
     "title": "Why We Need to Improve Software Engineering in Biostatistics",
     "section": "Take software engineering seriously",
-    "text": "Take software engineering seriously\n\nWe know what we should do, let’s just take the time and energy to do it\nWe can learn a lot from the statistical programmers:\n\norganize ourselves with standards (starts with naming conventions for files and folders)\nautomate repetitive tasks\nconsider double programming of key results\n\nProcesses should consider code in the same priority as documents (statistical analysis plans etc.)\n\nthat implies code review, good and consistent code style, business continuity, …\n\nStrive to be on par with Tech companies with regards to coding quality"
+    "text": "Take software engineering seriously\n\nWe know what we should do, let’s just take the time and energy to do it\nWe can learn a lot from the statistical programmers:\n\norganize ourselves with standards (starts with naming conventions for files and folders)\nautomate repetitive tasks (LLMs can help us to write tools for this)\nconsider double programming of key results\n\nProcesses should consider code in the same priority as documents (statistical analysis plans etc.)\n\nthat implies code review, good and consistent code style, business continuity, …\n\nStrive to be on par with Tech companies with regards to coding quality"
   },
   {
     "objectID": "index.html#take-software-engineering-seriously-contd",
@@ -165,7 +165,7 @@
     "href": "index.html#educate-educate-educate",
     "title": "Why We Need to Improve Software Engineering in Biostatistics",
     "section": "Educate, educate, educate",
-    "text": "Educate, educate, educate\n\nStarts with secondary schools:\n\ncomputer science should become a standard subject, not just be an extra\nsame importance as math, geography, physics, etc.\n\nContinues with undergraduate and graduate programs:\n\ncomputer science must become a key component of statistics and data science programs\ngood software engineering practices warrant dedicated courses\n\nContinues with post-graduate education during the work life:\nonline courses, software engineering workshops, conference sessions, etc."
+    "text": "Educate, educate, educate\n\nStarts with secondary schools:\n\ncomputer science should become a standard subject, not just be an extra\nsame importance as math, geography, physics, etc.\n\nContinues with undergraduate and graduate programs:\n\ncomputer science must become a key component of statistics and data science programs\ngood software engineering practices warrant dedicated courses\n\nContinues with post-graduate education during the work life:\nonline courses, software engineering workshops, conference sessions, etc.\nDo not think that programming is superfluous because of LLMs! You still need to be able to do it yourself to use LLMs efficiently and reliably!"
   },
   {
     "objectID": "index.html#establish-dedicated-teams",
@@ -242,7 +242,7 @@
     "href": "index.html#workshops-teaching-good-practices",
     "title": "Why We Need to Improve Software Engineering in Biostatistics",
     "section": "Workshops teaching good practices",
-    "text": "Workshops teaching good practices\n\n“Good Software Engineering Practices for R Packages”\n\nopenstatsware have run 12 workshops across the globe since 2023!\nIncluding the short course here tomorrow afternoon\n\n“The Carpentries”\n\nTeaches foundational coding and data science skills to researchers worldwide\nTeaching material on software, data, and library is available\n\n“Making Data Science Work for Clinical Reporting”\n\nCoursera course on how principles and methods from data science can be applied in clinical reporting"
+    "text": "Workshops teaching good practices\n\n“Good Software Engineering Practices for R Packages”\n\nopenstatsware have run 12 workshops across the globe since 2023!\nIncluding the short course here tomorrow afternoon - see you there!\n\n“The Carpentries”\n\nTeaches foundational coding and data science skills to researchers worldwide\nTeaching material on software, data, and library is available\n\n“Making Data Science Work for Clinical Reporting”\n\nCoursera course on how principles and methods from data science can be applied in clinical reporting"
   },
   {
     "objectID": "index.html#call-to-action-1",
